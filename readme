@@ -1,0 +1,14 @@
+#### Install plugim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\n https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+#### edit vimrc
+vi ~/.vimrc  < paste .vimrc file
+
+##### VISUAL mode
+:PlugInstall
+
+### intall fzf
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
